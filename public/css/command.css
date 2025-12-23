@@ -287,3 +287,56 @@ p {
   text-align: right;
   color: #ffffff;
 }
+
+/* //////////////////////////// PAGIONATION ///////////////////////////////////////// */
+
+.container .pagionation-box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .pagionation-box .pagionation-main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .pagionation-main .pagination-dot {
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pagionation-main img {
+  cursor: pointer;
+}
+
+.container .pagination-dot .dot {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.container .pagination-dot .dot.active {
+  border: 2px solid rgba(17, 33, 55, 1);
+}
+
+.container .pagination-dot .dot div {
+  width: 4px;
+  height: 4px;
+  background: rgba(17, 33, 55, 1);
+  border-radius: 50%;
+}

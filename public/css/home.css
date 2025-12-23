@@ -333,7 +333,7 @@
   flex-direction: column;
 }
 
-.container .product-wraper {
+.top-selling-product-frame .container .product-wraper {
   position: relative;
   margin-top: 30px;
   width: 100%;
@@ -344,19 +344,20 @@
   justify-content: space-between;
 }
 
-.product-wraper .next-prev-box {
+.top-selling-product-frame .product-wraper .next-prev-box {
   width: 25px;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.next-prev-box img {
+.top-selling-product-frame .next-prev-box img {
   position: absolute;
   top: 50%;
+  cursor: pointer;
 }
 
-.product-wraper .product-boxes {
+.top-selling-product-frame .product-wraper .product-boxes {
   position: relative;
   width: 1224px;
   height: 452px;
@@ -365,22 +366,22 @@
   flex-direction: row;
 }
 
-.product-boxes .product-box {
+.top-selling-product-frame .product-boxes .product-box {
   width: 306px;
   height: 100%;
 
   display: flex;
   flex-direction: column;
 
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
-.product-box .product-img-box {
+.top-selling-product-frame .product-box .product-img-box {
   width: 75%;
   height: 208px;
 }
 
-.product-img-box .hover-box {
+.top-selling-product-frame .product-img-box .hover-box {
   display: none;
   width: 100%;
   height: 100%;
@@ -390,7 +391,7 @@
   align-items: center;
 }
 
-.hover-box button {
+.top-selling-product-frame .hover-box button {
   margin-bottom: 10px;
   width: 260px;
   height: 50px;
@@ -398,6 +399,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   outline: none;
   border: none;
   border-radius: 6px;
@@ -412,18 +414,18 @@
   letter-spacing: 0%;
 }
 
-.product-img-box:hover .hover-box {
+.top-selling-product-frame .product-img-box:hover .hover-box {
   display: flex;
 }
 
-.product-box .product-content-box {
+.top-selling-product-frame .product-box .product-content-box {
   padding: 5px 22px;
   width: 100%;
   height: auto;
   box-sizing: border-box;
 }
 
-.product-content-box .product-title {
+.top-selling-product-frame .product-content-box .product-title {
   color: rgba(98, 105, 116, 1);
 
   font-family: Jost;
@@ -435,7 +437,7 @@
   text-transform: uppercase;
 }
 
-.product-content-box .product-desc {
+.top-selling-product-frame .product-content-box .product-desc {
   margin-top: 7px;
   height: 56px;
   color: rgba(4, 30, 66, 1);
@@ -445,18 +447,18 @@
   line-height: 28px;
 }
 
-.product-content-box .rewiew-box {
+.top-selling-product-frame .product-content-box .rewiew-box {
   margin-top: 7px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.rewiew-box img {
+.top-selling-product-frame .rewiew-box img {
   margin-right: 5px;
 }
 
-.rewiew-box span {
+.top-selling-product-frame .rewiew-box span {
   margin-left: 10px;
   color: rgba(98, 105, 116, 1);
 
@@ -468,14 +470,14 @@
   text-align: left;
 }
 
-.product-content-box .price-box {
+.top-selling-product-frame .product-content-box .price-box {
   margin-top: 10px;
 
   display: flex;
   align-items: center;
 }
 
-.price-box strong {
+.top-selling-product-frame .price-box strong {
   color: rgba(4, 30, 66, 1);
 
   font-family: Jost;
@@ -486,7 +488,7 @@
   text-align: left;
 }
 
-.price-box span {
+.top-selling-product-frame .price-box span {
   margin-left: 10px;
   color: rgba(98, 105, 116, 1);
 
