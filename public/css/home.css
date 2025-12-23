@@ -500,3 +500,23 @@
   text-align: left;
   text-decoration-line: line-through;
 }
+
+.Home_page .adv-frame {
+  margin-top: 90px;
+  width: 100%;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(229, 237, 255, 1);
+
+  color: rgba(0, 83, 246, 1);
+
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
