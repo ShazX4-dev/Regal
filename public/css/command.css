@@ -340,3 +340,11 @@ p {
   background: rgba(17, 33, 55, 1);
   border-radius: 50%;
 }
+
+/* ///////// Hover-border */
+.container .hover-border {
+  margin-top: 3px;
+  width: 32px;
+  height: 2px;
+  background: rgba(4, 30, 66, 1);
+}
