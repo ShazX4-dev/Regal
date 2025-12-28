@@ -1,7 +1,6 @@
 /*////////////////////////////////// HEADER_FRAME ///////////////////////////////////////*/
 
 .Home_page {
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -499,10 +498,6 @@
   flex-direction: column;
 }
 
-.Tv-frame .container {
-  flex-direction: column;
-}
-
 .container .tv-wraper {
   margin-top: 30px;
   width: 100%;
@@ -555,6 +550,7 @@
   justify-content: center;
 
   background-image: url(../images/icons/event_bg.png);
+  background-size: cover;
 }
 
 .event-frame .container {
